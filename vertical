@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for BUS in "$@"; do
+echo $BUS
+done

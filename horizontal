@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for CAR in "$*"; do
+echo $CAR 
+done

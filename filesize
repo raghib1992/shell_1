@@ -1,0 +1,7 @@
+#!/bin/bash -x
+
+DIR=/home/ec2-user/shell
+
+for FILE in $DIR/*; do
+ echo "File $FILE is $(stat --printf='%s' $FILE) bytes."
+done

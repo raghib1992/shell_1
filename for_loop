@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo
+for Family in Nahid Nilu Nadim Roma Rashid Shaheen; do echo $Family; done
+echo
+echo
+for Host in host{1,2,3}; do echo $Host; done
+echo
+echo
+for Host in host{1..5}; do echo $Host; done
+echo
+echo
+for File in file{a..e}; do ls $File; done
+echo
+

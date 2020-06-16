@@ -1,0 +1,11 @@
+#!/bin/bash
+
+First_=Mohammad
+First=Raghib
+Last=Nadim
+
+echo $First_$Last
+echo
+echo ${First}_${Last}
+echo
+

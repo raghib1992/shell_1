@@ -1,0 +1,3 @@
+#!/bin/bash
+
+for Even in $(seq 3 3 27); do echo $Even; done; echo "what is the greater number?"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Command to install git into system
+#update the system
+#
+echo "upadte the OS"
+sudo yum update -y
+#
+echo "installing the git repository"
+sudo yum install git -y
+
