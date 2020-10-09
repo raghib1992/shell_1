@@ -10,8 +10,9 @@ a=Mohammad
 b=Raghib
 c=Nadim
 
-echo myfirst name is $a 
+echo myfirst name is $a > myname.txt 
 
-echo my middle name is $b
+echo my middle name is $b >> myname.txt
 
-echo my last name is $c 
+echo my last name is $c >> myname.txt
+ 
