@@ -1,0 +1,13 @@
+#!/bin/bash
+
+a=`date`
+echo what is time now
+echo
+echo $a
+echo
+echo What will we do now?
+echo
+read b
+echo
+echo let go for $b
+echo
