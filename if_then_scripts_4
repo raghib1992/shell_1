@@ -1,0 +1,28 @@
+#!/bin/bash
+
+clear
+a=Raghib
+echo Hello
+echo
+read ans1
+echo
+echo My Name is $a
+echo
+echo What is your Name?
+echo
+read ans2
+echo
+echo $ans2 is a nice name
+echo
+echo "Do you have a boyfriend? (y/n)"
+echo
+read ans3
+echo
+
+if [ "$ans3" == y ]
+then
+echo He is a lucky boy
+elif [ "$ans3" == n ]
+then
+echo Will you be my grilfriend
+fi

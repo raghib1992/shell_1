@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# -e to check the file exist
+
+clear
+if [ -e /home/centos/shell_1/if_then_scripts ]
+then
+echo file exist
+else
+echo file doesnot exist
+fi

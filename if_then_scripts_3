@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+# how to use variable
+
+a=`date | awk '{print $1}'`
+
+if [ "$a" == Fri ]
+then
+echo today is Friday
+else
+echo today is not friday
+fi
