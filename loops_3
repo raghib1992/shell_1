@@ -1,0 +1,8 @@
+#!/bin/bash
+# Description: increment
+
+i=1
+for day in Mon Tue Wed Thur Fri
+do
+echo "Weekdays $((i++)) : $day"
+done

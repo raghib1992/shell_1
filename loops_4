@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Description: All available  user
+
+clear
+i=1
+for username `awk -F: '{print $1}' /etc/passwd`
+do
+echo "Username $((i++)) : $username"
+done

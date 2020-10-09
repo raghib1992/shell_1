@@ -1,0 +1,8 @@
+#1/bin/bash
+
+#description: how for loops work
+
+for i in 1 2 3 4 5
+do
+echo "Welcome $i times"
+done
