@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# description: select option
+
+echo
+echo Please select on od the option
+echo
+echo 'a = Display date and time'
+echo
+echo 'b = List file and directories'
+echo
+echo 'c = List user logged in'
+echo
+echo 'd = Check system uptime'
+echo
+read a
+case $a in
+a) date;;
+b) ls -ltr;;
+c) who;;
+d) uptime;;
+*) echo Invalid choice -Bye
+esac
+
