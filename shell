@@ -1,0 +1,33 @@
+
+
+it like a container
+
+interface beween user and kernel/OS
+
+CLI is a shell
+
+
+# to know our shell
+echo$0
+cat /etc/shells
+cat/etc/passw
+
+
+
+window GUI is a shell
+LINUX KDE is a shell
+LINUX sh, bash is a shell
+
+types of shell
+#GUI
+Gnome ___GUI
+KDE______GUI
+#CLI
+sh----borne shell
+bash------enhacment of sh--born again shell
+csh and tcsh------
+ksh______korne shell
+
+
+
+

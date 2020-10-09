@@ -1,0 +1,17 @@
+
+interface between hardware and software
+
+take command from shell
+
+user
+app
+shell
+kernel
+Hardware
+
+
+
+Shell+kernel == OS
+
+shell+app == software
+
