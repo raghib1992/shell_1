@@ -1,0 +1,5 @@
+#!/bin/bash
+
+## it define we run the command under bash shell
+
+echo Hello WOrld

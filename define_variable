@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# this script written by Md Raghib Nadim
+
+# Date: 9 Oct 2020
+
+# demo to how to define variable in script
+
+a=Mohammad
+b=Raghib
+c=Nadim
+
+echo myfirst name is $a 
+
+echo my middle name is $b
+
+echo my last name is $c 
