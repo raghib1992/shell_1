@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo Hello
+echo
+read ans1
+echo
+echo only $ans1.
+echo
+echo My name is Md Raghib Nadim
+echo 
+echo what is your name?
+echo
+read ans2
+echo
+echo Hi! $ans2
+echo
+echo Hi!! Raghib
+echo
+echo what you want to tell me
+echo
+echo Today I learn, First level of Programming
